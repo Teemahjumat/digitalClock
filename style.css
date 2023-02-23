@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato", sans-serif;
+}
+.clock{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    display: grid;
+    place-items: center ;
+    color: turquoise;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 375px){ 
+    .clock{
+        font-size: 35px;
+    }
+}
